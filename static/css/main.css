@@ -1,0 +1,112 @@
+/* define some global variables */
+:root {
+    --pink: #f3c6f2;
+    --salmon: #efa6b6;
+    --lavender: #bd98e0;
+    --blue: #8d90e2;
+    --purple: #7554ae;
+    --offwhite: #ececf8;
+    --white: #fff;
+}
+
+html {
+    background-color: var(--offwhite);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/*
+* Formatting the header area
+*/
+header {
+    background-color: var(--blue);
+    height: 45px;
+    width: 100%;
+    opacity: .9;
+    margin-bottom: 10px;
+}
+header h1.logo {
+    margin: 6px;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+    padding-left: 1%;
+    
+}
+header h1.logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+/*
+* Centering the body content
+*/
+.container {
+    width: 100%;
+    margin: auto;
+
+}
+
+div.home {
+    padding: 10px 0 30px 0;
+    background-color: #E6E6FA;
+    -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+div.about {
+    padding: 10px 0 30px 0;
+    background-color: #E6E6FA;
+    -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+h3 {
+    font-size: 1.7em;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #999;
+}
+
+.menu {
+    float: right;
+    margin-top: 15px;
+    padding-right: 5%;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li + li {
+    margin-left: 35px;
+}
+
+.menu li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.menu :hover {
+    color: var(--offwhite);
+}
